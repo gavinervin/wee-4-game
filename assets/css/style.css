@@ -1,1 +1,106 @@
 /*   css */
+
+*{
+	box-sizing: border-box;
+}
+
+body {
+	background: url('../images/low_contrast_linen.png')
+
+}
+
+.container {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	clear: none;
+}
+
+.gcontainer {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	clear: none;
+}
+.main-section {
+	background: #7986cb;
+	padding: 30px;
+	margin: 0 0 40px 0;
+	width: 100%;
+	max-width: 650px;
+	float: left;
+	border: 1px solid #ddd;
+}
+
+.game-section {
+	background: #e57373;
+	padding: 10px;
+	margin: 0 0 40px 0;
+	width: 100%;
+	max-width: 200px;
+	float: right;
+	border: 1px solid #ddd;
+}
+#main-container {
+	padding-top: 10px;
+	float: left;
+}
+
+.tscore {
+	background: #ffee58;
+	padding: 10px;
+	width: 100%;
+	max-width: 270px;
+	float: left;
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+}
+
+.cscore {
+	background: #ffee58;
+	padding: 10px;
+	width: 100%;
+	max-width: 270px;
+	float: right;
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+}
+
+.winloss {
+	background: #81c784;
+	padding: 10px;
+	width: 100%;
+	max-width: 270px;
+	float: left;
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+	font-family: "Georgia", "Times";
+	font-size: 8px;
+}
+ h2 {
+	font-family: "Georgia", "Times";
+	font-size: 15px;
+
+
+}
+
+
+#game-container {
+	padding-top: 10px;
+	float: ;
+}
+
+.crystal {
+	width: 274px;
+	overflow: auto;
+	position: relative;
+	float: left;
+	margin: 10px 0 10px;
+}
+
+
+.crystal img {
+	width: 25%;
+	border: 0 none;
+	opacity: 8;
+}

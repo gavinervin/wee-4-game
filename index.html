@@ -1,49 +1,95 @@
 <!DOCTYPE html>
 <html>
-<head>
+	<head>
+		<meta charset="UTF-8">
+			<title>Crystal Collector</title>
+				<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+				<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
+		<body>
+	
+			<div class="page-header" style="color: #b71c1c;">
+  				<h1 class="text-center"><b>Crystal Collector</b></h1>
+			</div>
+<!--instructions -->
+			<div id="main-container" class="container">
+				<section class="main-section">
+					<h1>Instructions</h1>
+						<ul>
+							<li>You will be given a random number at the start of the game.</li>
+							<li>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</li>
+							<li>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</li>
+							<li>The value of each crystal is hidden from you until you click on it.</li>
+							<li>Each time when the game starts, the game will change the values of each crystal.</li>
+						</ul>
+				<!-- score -->
+				<section class="tscore">
+					<div id="connect">
+						<h2>Target score:<h2 id='targets'></h2>
+			
+					</div>
+				</section>
+ 
+ 				<section class="cscore">
+					<div id="connect">
+						<h2>Current score:<h2 id='currents'></h2>
+			
+					</div>
+				</section>
+
+			</section>
+	
+				<!-- crystal pics -->
+			<div id="game-container" class="gcontainer">
+				<section class="game-section">
+					<h1>Crystals</h1>
+		
+						<div class="crystal">
+							<img src="https://ae01.alicdn.com/kf/HTB109mSSVXXXXXmXXXXq6xXFXXXt/30mm-font-b-Red-b-font-font-b-Crystal-b-font-Ball-font-b-Prisms-b.jpg" class="auth-image" alt="redcrystal" id="red">
+
+						</div>
+
+						<div class="crystal">
+							<img src="http://www.fengshui-supply.com/store/images/D/yellow_wishfulfilling_crystal.jpg" class="auth-image" alt="yellowcrystal" id="yellow">
+
+						</div>
+
+						<div class="crystal">
+							<img src="https://s-media-cache-ak0.pinimg.com/originals/e8/1d/f5/e81df52bf9020b0011c82b24c2496de5.jpg" class="auth-image" alt="bluecrystal" id="blue">
+
+						</div>
+
+						<div class="crystal">
+							<img src="https://images-na.ssl-images-amazon.com/images/I/41AuTi-I4yL.jpg" class="auth-image" alt="greencrystal" id="green">
+
+						</div>
+
+			</div>
+			</section>
+
+
+<!-- win/ loss counter -->
+				<section class="winloss">
+					<div id="gametally">
+						<h2>Win:<h2 id='winner'></h2>
+						<h2>Loss:<h2 id='loser'></h2>
+					</div>
+				</section>
 
 
 
 
 
-<div class="row">
-  <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
-      <img src="Cr1" alt="crystal1">
-    </a>
-  </div>
-  ...
-</div>
-<div class="row">
-  <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
-      <img src="cr2" alt="crystal2">
-    </a>
-  </div>
-  ...
-</div>
-<div class="row">
-  <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
-      <img src="cr3" alt="crystal3">
-    </a>
-  </div>
-  ...
-</div>
-<div class="row">
-  <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
-      <img src="cr4" alt="crystal4">
-    </a>
-  </div>
-  ...
-</div>
 
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
 
+<script src="assets/javascript/game.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
 
-
-
-
-
-
+			</body>
 </html>
